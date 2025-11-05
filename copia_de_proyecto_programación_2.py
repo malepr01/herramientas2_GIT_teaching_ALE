@@ -11,6 +11,7 @@ Original file is located at
 
 DATOS DE LA GEIH DEL PRIMER SEMESTRE DE 2024
 """
+#Librerias 
 
 import pandas as pd
 import numpy as np
@@ -19,6 +20,7 @@ import matplotlib.pyplot as plt
 from transformers import TimesFmModelForPrediction
 import torch
 
+# Carga de bases
 from google.colab import drive
 drive.mount('/content/drive')
 
